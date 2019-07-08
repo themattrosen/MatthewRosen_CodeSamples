@@ -1,0 +1,65 @@
+{
+	"mister_sandman.wav",
+	{
+		/*1*/  MEASURE( NOTE(Bb, 3, 1, 0), NOTE(D, 4, 1, 1), NOTE(F, 4, 1, 2), NOTE(A, 4, 1, 3), NOTE(Bb, 3, 7, 0, SUS_NOTE), NOTE(D, 4, 6, 1, SUS_NOTE), NOTE(F, 4, 4, 2, SUS_NOTE) ), // measure
+		/*2*/  MEASURE( NOTE(G, 4, 1, 0), NOTE(F, 4, 1, 1), NOTE(D, 4, 1, 2), NOTE(Bb, 3, 1, 3) ), // measure
+		/*3*/  MEASURE( NOTE(C, 4, 1, 0), NOTE(Eb, 4, 1, 1), NOTE(G, 4, 1, 2), NOTE(Bb, 4, 1, 3), NOTE(G, 4, 2, 2, SUS_NOTE) ), // measure
+		/*4*/  MEASURE( NOTE(F, 4, 4, 0, SUS_NOTE), NOTE(A, 4, 4, 0, SUS_NOTE), NOTE(F, 4, 1, 3) ), // measure
+		/*5*/  MEASURE( NOTE(Bb, 3, 1, 0), NOTE(D, 4, 1, 1), NOTE(F, 4, 1, 2), NOTE(A, 4, 1, 3) ), // measure
+		/*6*/  MEASURE( NOTE(G, 4, 1, 0), NOTE(A, 4, 1, 1), NOTE(D, 4, 1, 2), NOTE(Bb, 3, 1, 3) ), // measure
+		/*7*/  MEASURE( NOTE(C, 4, 1, 0), NOTE(Eb, 4, 1, 1), NOTE(G, 4, 1, 2), NOTE(Bb, 4, 1, 3) ), // measure
+		/*8*/  MEASURE( NOTE(A, 4, 1, 0), NOTE(F, 4, 1, 0), NOTE(F, 4, 1, 2), NOTE(G, 4, 1, 3), NOTE(Eb, 4, 1, 3) ),  // measure
+		/*9*/  MEASURE( NOTE(F, 4, 1, 0), NOTE(A, 4, 1, 0), NOTE(G, 4, 5, 1, SUS_NOTE), NOTE(F, 4, 5, 1, SUS_NOTE), NOTE(Bb, 3, 1, 0), NOTE(D, 4, 1, 0), NOTE(D, 4, 1, 1), NOTE(F, 4, 1, 2), NOTE(A, 4, 1, 3) ),
+		/*10*/ MEASURE( NOTE(G, 4, 1 ,0), NOTE(F, 4, 1, 1), NOTE(D, 4, 1, 2), NOTE(Bb, 3, 1, 3) ),
+		/*11*/ MEASURE( NOTE(A, 4, 1, 0), NOTE(A, 4, 1, 1), NOTE(G, 4, 1, 2), NOTE(A, 4, 5, 3, SUS_NOTE), NOTE(G, 4, 5, 3, SUS_NOTE), 
+						NOTE(E, 4, 1, 0), NOTE(E, 4, 1, 1), NOTE(E, 4, 1, 2), NOTE(E, 4, 5, 3), NOTE(C#, 4, 1, 0), NOTE(C#, 4, 1, 1), NOTE(C#, 4, 1, 2), NOTE(C#, 4, 1, 3) ),
+		/*12*/ MEASURE( NOTE(A, 3, 1, 1), NOTE(B, 3, 1, 2), NOTE(C#, 4, 1, 3) ),
+		/*13*/ MEASURE( NOTE(Bb, 4, 1, 1), NOTE(Bb, 4, 1, 2), NOTE(A, 4, 1, 3), NOTE(Fs, 4, 1, 1), NOTE(Fs, 4, 1, 2), NOTE(Fs, 4, 1, 3),
+						NOTE(D, 4, 1, 0), NOTE(D, 4, 1, 1), NOTE(D, 4, 1, 2), NOTE(D, 4, 1, 3), NOTE(C, 4, 1, 1), NOTE(C, 4, 1, 2), NOTE(C, 4, 1, 3) ),
+		/*14*/ MEASURE( NOTE(Bb, 4, 1, 0), NOTE(Fs, 4, 1, 0), NOTE(Bb, 4, 2, 1, SUS_NOTE), NOTE(Fs, 4, 2, 1, SUS_NOTE), NOTE(A, 4, 1, 3), NOTE(F, 4, 1, 3),
+						NOTE(D, 4, 1, 0), NOTE(C, 4, 1, 0), NOTE(D, 4, 2, 1, SUS_NOTE), NOTE(C, 4, 2, 1, SUS_NOTE), NOTE(D, 4, 1, 3), NOTE(C, 4, 1, 3) ),
+		/*15*/ MEASURE( NOTE(Eb, 4, 1, 0), NOTE(Eb, 4, 1, 1), NOTE(D, 4, 1, 2), NOTE(Eb, 4, 5, 3, SUS_NOTE),
+						NOTE(B, 3, 1, 0), NOTE(B, 3, 1, 1), NOTE(B, 3, 1, 2), NOTE(B, 3, 5, 3, SUS_NOTE) ),
+		/*16*/ MEASURE( NOTE(G, 4, 1, 1), NOTE(Gb, 4, 1, 2), NOTE(F, 4, 1, 3) ),
+		/*17*/ MEASURE( NOTE(E, 4, 1, 0), NOTE(E, 4, 1, 1), NOTE(E, 4, 1, 2), NOTE(E, 4, 1, 3), NOTE(A, 4, 1, 1), NOTE(A, 4, 1, 2), NOTE(G, 4, 1, 3), 
+						NOTE(C, 4, 1, 1), NOTE(C, 4, 1, 2), NOTE(C, 4, 1, 3), NOTE(Bb, 4, 1, 1), NOTE(Bb, 4, 1, 2), NOTE(Bb, 4, 1, 3) ),
+		/*18*/ MEASURE( NOTE(A, 4, 2, 0, SUS_NOTE), NOTE(E, 4, 2, 0, SUS_NOTE), NOTE(G, 4, 1, 3), NOTE(E, 4, 1, 3),
+	                    NOTE(C, 4, 2, 0, SUS_NOTE), NOTE(Bb, 3, 2, 0, SUS_NOTE), NOTE(C, 4, 1, 3), NOTE(Bb, 3, 1, 3) ),
+		/*19*/ MEASURE( NOTE(D, 4, 1, 0), NOTE(D, 4, 1, 1), NOTE(C, 4, 1, 2), NOTE(D, 4, 2, 3, SUS_NOTE),
+						NOTE(A, 3, 1, 0), NOTE(A, 3, 1, 1), NOTE(A, 3, 1, 2), NOTE(A, 3, 2, 3, SUS_NOTE), NOTE(C, 4, 2, 3, SUS_NOTE) ),
+		/*20*/ MEASURE( NOTE(F, 4, 3, 1, SUS_NOTE), NOTE(Eb, 4, 3, 1, SUS_NOTE), NOTE(C, 4, 3, 1, SUS_NOTE), NOTE(A, 3, 3, 1, SUS_NOTE) ),
+		/*21*/ MEASURE( NOTE(C, 5, 1, 1), NOTE(C, 5, 1, 2), NOTE(Bb, 4, 1, 3), NOTE(A, 4, 1, 1), NOTE(A, 4, 1, 2), NOTE(G, 4, 1, 3),
+						NOTE(F, 4, 1, 1), NOTE(F, 4, 1, 2), NOTE(F, 4, 1, 3), NOTE(D, 4, 1, 1), NOTE(D, 4, 1, 2), NOTE(D, 4, 1, 3) ),
+		/*22*/ MEASURE( NOTE(C, 5, 1, 0), NOTE(Bb, 4, 1, 1), NOTE(C, 5, 1, 2), NOTE(Bb, 4, 1, 3), NOTE(A, 4, 1, 0), NOTE(G, 4, 1, 1), NOTE(A, 4, 1, 2), NOTE(G, 4, 1, 3),
+						NOTE(F, 4, 1, 0), NOTE(F, 4, 1, 1), NOTE(F, 4, 1, 2), NOTE(F, 4, 1, 3),  NOTE(D, 4, 1, 0), NOTE(D, 4, 1, 1), NOTE(D, 4, 1, 2), NOTE(D, 4, 1, 3) ),
+		/*23*/ MEASURE( NOTE(Bb, 4, 2, 0, SUS_NOTE), NOTE(Bb, 4, 2, 2, SUS_NOTE), NOTE(Db, 5, 2, 0, SUS_NOTE), NOTE(Db, 5, 2, 2, SUS_NOTE),
+						NOTE(Gb, 4, 2, 0, SUS_NOTE), NOTE(Gb, 4, 2, 2, SUS_NOTE), NOTE(F, 4, 2, 0, SUS_NOTE), NOTE(F, 4, 2, 2, SUS_NOTE) ),
+		/*24*/ MEASURE( NOTE(D, 5, 1, 0), NOTE(A, 4, 1, 0), NOTE(C, 5, 2, 1, SUS_NOTE), NOTE(A, 4, 2, 1, SUS_NOTE), 
+						NOTE(G, 4, 1, 0), NOTE(Eb, 4, 1, 0), NOTE(F, 4, 2, 1, SUS_NOTE), NOTE(Eb, 4, 2, 1, SUS_NOTE)),
+		/*25*/ MEASURE( NOTE(A, 4, 2, 0, SUS_NOTE), NOTE(F, 4, 2, 0, SUS_NOTE), NOTE(G, 4, 4, 2, SUS_NOTE), NOTE(F, 4, 4, 2, SUS_NOTE),
+						NOTE(D, 4, 2, 0, SUS_NOTE), NOTE(Bb, 3, 2, 0, SUS_NOTE), NOTE(D, 4, 4, 2, SUS_NOTE), NOTE(Bb, 3, 4, 2, SUS_NOTE) ),
+		/*26*/ MEASURE(  ),
+		/*27*/ MEASURE( NOTE(A, 4, 1, 0), NOTE(A, 4, 1, 1), NOTE(G, 4, 1, 2), NOTE(A, 4, 4, 3, SUS_NOTE), NOTE(G, 4, 4, 3, SUS_NOTE),
+						NOTE(E, 4, 1, 0), NOTE(Cs, 4, 1, 0), NOTE(E, 4, 1, 1), NOTE(Cs, 4, 1, 1), NOTE(E, 4, 1, 2), NOTE(Cs, 4, 1, 2), NOTE(E, 4, 1, 3), NOTE(Cs, 4, 4, 3, SUS_NOTE) ),
+		/*28*/ MEASURE( NOTE(A, 3, 1, 1), NOTE(B, 3, 1, 2), NOTE(Cs, 4, 1, 3) ),
+		/*29*/ MEASURE( NOTE(Bb, 4, 1, 1), NOTE(Bb, 4, 1,2), NOTE(A, 4, 1, 3), NOTE(Fs, 4, 1, 1), NOTE(Fs, 4, 1, 2), NOTE(Fs, 4, 1, 3),
+						NOTE(D, 4, 1, 0), NOTE(D, 4, 1, 1), NOTE(D, 4, 1, 2), NOTE(D, 4, 1, 3), NOTE(C, 4, 1, 1), NOTE(C, 4, 1, 2), NOTE(C, 4, 1, 3) ),
+		/*30*/ MEASURE( NOTE(Bb, 4, 1, 0), NOTE(Bb, 4, 2, 1, SUS_NOTE), NOTE(A, 4, 1, 3), NOTE(Fs, 4, 1, 0), NOTE(Fs, 4, 2, 1, SUS_NOTE), NOTE(Fs, 4, 1, 3),
+						NOTE(D, 4, 1, 0), NOTE(D, 4, 2, 1, SUS_NOTE), NOTE(D, 4, 1, 3), NOTE(C, 4, 1, 0), NOTE(C, 4, 2, 1, SUS_NOTE), NOTE(C, 4, 1, 3) ),
+		/*31*/ MEASURE( NOTE(Eb, 4, 2, 0, SUS_NOTE), NOTE(D, 4, 1, 2), NOTE(Eb, 4, 4, 3, SUS_NOTE), 
+						NOTE(B, 3, 2, 0, SUS_NOTE), NOTE(B, 3, 1, 2), NOTE(B, 3, 4, 3, SUS_NOTE) ),
+		/*32*/ MEASURE(  ),
+		/*33*/ MEASURE( NOTE(Eb, 4, 2, 0, SUS_NOTE), NOTE(G, 4, 1, 2), NOTE(Bb, 4, 2, 3, SUS_NOTE), NOTE(G, 4, 2, 3, SUS_NOTE),
+						NOTE(C, 4, 2, 0, SUS_NOTE), NOTE(Eb, 4, 1, 2), NOTE(Eb, 4, 2, 3, SUS_NOTE), NOTE(C, 4, 1, 2), NOTE(C, 4, 2, 3, SUS_NOTE) ),
+		/*34*/ MEASURE( NOTE(C, 5, 1, 1), NOTE(C, 5, 1, 2), NOTE(C, 5, 1, 3), NOTE(Bb, 4, 1, 1), NOTE(Bb, 4, 1, 2), NOTE(Bb, 4, 1, 3), 
+						NOTE(G, 4, 1, 1), NOTE(G, 4, 1, 2), NOTE(G, 4, 1, 3), NOTE(Eb, 4, 1, 1), NOTE(Eb, 4, 1, 2), NOTE(Eb, 4, 1, 3) ),
+		/*35*/ MEASURE( NOTE(Eb, 5, 5, 0, SUS_NOTE), NOTE(C, 5, 5, 0, SUS_NOTE), NOTE(Bb, 4, 5, 0, SUS_NOTE), NOTE(Gb, 4, 5, 0, SUS_NOTE) ),
+		/*36*/ MEASURE( NOTE(Bb, 4, 1, 2), NOTE(C, 5, 1, 3), NOTE(Bb, 4, 1, 3), NOTE(Gb, 4, 1, 2), NOTE(Gb, 4, 1, 3) ),
+		/*37*/ MEASURE( NOTE(D, 5, 2, 0, SUS_NOTE), NOTE(D, 5, 2, 2, SUS_NOTE), NOTE(Bb, 4, 2, 0), NOTE(Bb, 4, 2, 2, SUS_NOTE),
+						NOTE(F, 4, 2, 0, SUS_NOTE), NOTE(F, 4, 2, 2, SUS_NOTE) ),
+		/*38*/ MEASURE( NOTE(D, 5, 1, 0), NOTE(Bb, 4, 1, 0), NOTE(Bb, 4, 1, 1), NOTE(D, 5, 2, 2, SUS_NOTE), NOTE(A, 4, 2, 2, SUS_NOTE),
+						NOTE(G, 4, 1, 0), NOTE(E, 4, 1, 0), NOTE(G, 4, 1, 1), NOTE(E, 4, 1, 1), NOTE(F, 4, 2, 2, SUS_NOTE), NOTE(Eb, 4, 2, 2, SUS_NOTE) ),
+		/*39*/ MEASURE( NOTE(Bb, 4, 4, 0, SUS_NOTE), NOTE(F, 4, 4, 0, SUS_NOTE), NOTE(D, 4, 4, 0, SUS_NOTE) ),
+		/*40*/ MEASURE(  )
+	}
+};
