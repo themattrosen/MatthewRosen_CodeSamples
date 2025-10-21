@@ -2,18 +2,6 @@
 Here lies code written by Matthew Rosen in projects both personal and academic.
 The code is divided into subsections based on job family that it relates to.
 
-# Tools
-## BehaviorTree Node Editor
-This was a side project turned into a contribution to my junior Game project (Haphazard300 engine for the game Cat's Cradle). 
-Written using ImGui, this tool was originally a node editor for creating DSP effects from a node based DSP graph for a personal project.
-It was easily adapted into an editor for BehaviorTrees for the AI in the engine. 
-Although the game never ended up needing AI, the editor and the BehaviorTrees are still fully functional.
-The node editor backend was written by me, and the actual AI part of the BehaviorTrees was implemented by Brett Schiff. 
-The code provided is not buildable, but there is a video demo of the product in the repo and at: <https://youtu.be/frY-5A-Dphs>.
-
-## Next Release
-Reverb filter tool.
-
 # Audio/DSP
 ## Plucked String Filter Music
 
@@ -28,8 +16,8 @@ The final product was the ability to define a song in a separate file as a serie
 The plucked string filter is implemented using a comb filter, basic lowpass filter, and an allpass filter in series feeding back into the comb filter as described in Stieglitz's book A Digital Signal Processing Primer.
 
 ## Next release
-Reverb Filter
-  
+Vocoder Filter
+
 # Core/Engine
 ## Haphazard Event System
 This was the event system used in the Haphazard 300 game engine. I've written an article on LinkedIn on its implementation here: 
@@ -66,6 +54,3 @@ The stack allocator has less use-cases than the pool allocator, but is still ver
 The main use of this was with an event manager. If the user wanted to queue events to happen at the end of a frame with variable sized event structs, I used the stack allocator to quickly allocate memory for the event to put in a queue. On frame end, I would just process all queued events and clear the stack allocator. 
 
 Neither of these allocators are replacement for a global allocator commonly found on AAA titles, but they are good for an easy way to guarantee objects aligned in the cache and quickly created, without worry of fragmentation. 
-
-### Next release
-Haphazard300 Component Storage System
